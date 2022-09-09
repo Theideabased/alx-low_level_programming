@@ -3,9 +3,8 @@
 
 /**
  * main -Entry point
- * Description: prints the string "programming is like 
- * building a multilingual puzzle"*
- * And return: Always 0 (Success)
+ * Description: prints print the word 
+ * proogramming is like building a multilingual puzzle
  */
 int main(void)
 {
