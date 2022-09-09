@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main -put the string in the put function
+ * main - print the string in the put function
  *
  * Description: using the main function
- * this program prints "with proper grammar, but the outcome is a piece of art
- * Return:0 
+ * this program prints "Programming is like building a multilingual puzzle
+ * Return: 0 
  */
 int main(void)
 {
