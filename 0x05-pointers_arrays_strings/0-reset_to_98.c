@@ -11,10 +11,7 @@ int main(void)
 	int n;
 	n = 402;
 	printf("n%d\n", n);
-	int *ip;
-	ip = &var;
-	*ip = 98;
-	n = *ip;
+	n = 98
 	printf("n%d\n", n);
 
 	return (0);
