@@ -3,8 +3,7 @@
 
 /**
  *_puts - function that prints a string,
- *@str: the string to be inputed.
- * 
+ *@str: the string to be inputed. 
  *Description : print a string
  *on success: returns no error
  */
