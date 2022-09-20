@@ -1,22 +1,22 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 
 /**
- * print_array - prints n elements of an array of integers
- * @a - the array
- * @n - the number of time
- *
- * Return : nothing 
+ * print_array - a function that prints n elements of an array of integers,
+ * followed by a new line.
+ * @a: an input array
+ * @n: an input integer
+ * Return: Nothing
  */
 void print_array(int *a, int n)
 {
-	int inc ;
-	for (inc = 0 ; inc < n ; inc ++)
+	int i = 0;
+
+	for (; i < n; i++)
 	{
-		if (inc != n - 1)
-			printf("%d, ", a [inc]);
-		else 
-			printf("%d", a [inc]);
+		printf("%d", a[i]);
+		if (i < n - 1)
+			printf(", ");
 	}
-	putchar (10);
+	putchar('\n');
 }
