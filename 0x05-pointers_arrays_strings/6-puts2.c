@@ -3,7 +3,7 @@
 
 /**
  * puts2 : print other character in the line
- * @str : the string to print from
+ * @str : string
  *
  * Return: nothing
  */
