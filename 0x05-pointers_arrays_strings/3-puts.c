@@ -2,12 +2,12 @@
 #include "main.h"
 
 /**
- * _puts - function that prints a string,
- * @str: the string to be inputed.
+ *_puts - function that prints a string,
+ *@str: the string to be inputed.
  * 
- * Description : print a string
- * on success: returns no error
- * */
+ *Description : print a string
+ *on success: returns no error
+ */
 
 void _puts(char *str)
 {
