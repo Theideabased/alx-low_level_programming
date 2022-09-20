@@ -3,7 +3,9 @@
 #include "main.h"
 
 /**
-*print rev - prints a string in reverse order
+*print_rev - prints a string in reverse order
+*Description : print the string s in reverse order
+*
 *@s : string to reverse
 *Return: Nothing
 */
