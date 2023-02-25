@@ -2,8 +2,8 @@
 
 #Setting variables
 CC = gcc
-SRC = main.c holberton.c
-NAME = holberton
+SRC = main.c school.c
+NAME = school
 OBJ = $(SRC:.c=.o) # Substitution References
 RM = rm -f
 # Rule all: Build the holberton excutable file
@@ -12,18 +12,15 @@ RM = rm -f
 all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 
-# This is declare to making this rules a prerequiste of the special target
-.PHONY: clean oclean fclean re
-
 # Delete all Emacs and VIm temporary files along with the excutable
 clean:
 	$(RM) *~ $(NAME)
 
 # Delete all Emacs and Vime temporary files, the excutable,
 # and the object files
-fclean:
-	$(RM) *~ $(NAME)
-	$(RM) $(OBJ)
+oclean:$(RM) $(OBJ)
+
+fclean : clean oclean
 
 # Forces recompilation of all source files
 re: oclean all

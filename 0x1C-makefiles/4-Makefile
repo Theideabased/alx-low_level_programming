@@ -14,8 +14,6 @@ CFLAGS = -Wall -Werror -Wextra -pedantic
 all: $(OBJ)
 	$(CC) $(CFLAGS) $(OBJ) -o $(NAME)
 
-# This is declare to making this rules a prerequiste of the special target
-.PHONY: clean oclean fclean re
 
 # Deletes all Emacs and VIm temporary files along with the excutable
 clean:
